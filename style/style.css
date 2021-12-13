@@ -1,0 +1,99 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+
+    background-image: url(/images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#card{
+    
+    background-image: url(/images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+
+    border-radius: 10%;
+
+    margin-top: calc(100% - 80%);
+
+    width: 400px;
+    height: 480px;
+}
+
+.backgroudCard{
+    
+    
+    width: 400px;
+    height: 150px;
+}
+
+.imgUser{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+
+   
+    width: 400px;
+    height: 200px;
+}
+
+img{
+    position: absolute;
+    top: -20%;
+    border-radius: 50%;
+    border: 8px solid white;
+    
+}
+
+p{
+    margin-top: -20px;
+}
+
+.infoUser{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+
+ justify-items: center;
+   
+   
+    
+
+    width: 400px;
+    height: 130px;
+}
+
+table{
+    padding:0px ;
+   
+}
+
+.bottomTable{
+   padding-top: 0px;
+   
+}
+
+/*Colors*/
+
+span{
+    color: gray;
+    font-size: 0.9em;
+}
+
+/*Adjust*/
+h1{
+    font-size: 1.8em;
+}
+
+
+p{
+    font-size: 1em;
+}
